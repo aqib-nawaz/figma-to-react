@@ -1,0 +1,27 @@
+.cart-widget-contaier {
+    background: #f1f1f1;
+    position: absolute;
+    width: 390px;
+    left: 140px;
+    top: 90px;
+    grid-gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(4, 0fr);
+}
+
+.widget-icon-wrapper {
+    justify-self: center;
+    place-self: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 140px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgba(94, 98, 120, 0.04);
+    border-radius: 12px;
+}
+
+.widget-icon-title {
+    font-weight: bold;
+}

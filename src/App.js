@@ -6,6 +6,7 @@ import './App.css'
 import Header from './components/Header'
 import CartsWidget from './components/CartsWidget'
 import WidgetEngage from './components/WidgetEngage'
+import TrendsWidget from './components/TrendsWidget'
 
 
 
@@ -17,6 +18,7 @@ function App() {
             <Header />
             <CartsWidget data={CartWidgetData} />
             <WidgetEngage />
+            <TrendsWidget />
         </div>
     )
 }

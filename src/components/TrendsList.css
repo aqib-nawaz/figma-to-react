@@ -1,0 +1,28 @@
+.trend-widget-list-item {
+    list-style: none;
+    margin-left: 0;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description h5 {
+    margin: 0;
+}
+
+.description div {
+    color: #7E8299;
+}
+
+.price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #7E8299;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: rgb(236, 236, 236);
+}

@@ -5,7 +5,7 @@ function CartsWidget(props) {
     return (
         <div className='cart-widget-contaier'>
             {
-                props.data.map((item, index) => <div className='widget-icon-wrapper'>
+                props.data.map((item, index) => <div key={index} className='widget-icon-wrapper'>
                     <img className='widget-icon' src={require(`../assets/carts-icons/${item.name}`)} alt={item.name} />
                     <p className='widget-icon-title'>{item.title}</p>
                 </div>)

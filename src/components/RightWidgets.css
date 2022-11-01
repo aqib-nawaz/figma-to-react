@@ -1,8 +1,8 @@
-.trend-widget-wrapper {
+.right-widgets-wrapper {
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 340px;
+    width: 300px;
     height: 330px;
     left: 540px;
     top: 346px;
@@ -12,14 +12,18 @@
     padding: 10px;
 }
 
-.trend-widget-header {
+.right-widgets-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.trend-widget-list {
+.right-widgets-list {
     margin: 0;
     padding: 0;
+}
+
+.properties-widget {
+    left: 900px;
 }

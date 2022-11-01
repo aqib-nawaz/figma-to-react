@@ -9,7 +9,7 @@ function Header() {
         <div className='header-container'>
             <h3 className='header-left'>Categories</h3>
             <div className='header-right'>
-                <form>
+                <form className='form'>
                     <img className="search-icon" src={search} alt="search" />
                     <input type="search" className="search" />
                 </form>

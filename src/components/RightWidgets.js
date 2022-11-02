@@ -18,6 +18,7 @@ function RightWidgets(props) {
             <ul className="right-widgets-list">
                 {props.data.map((item, index) => (
                     <RightWigetItems
+                        key={index}
                         src={
                             props.heading === "Trends"
                                 ? require(`../assets/widget-2-icons/${item.name}`)

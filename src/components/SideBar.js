@@ -16,7 +16,7 @@ function SideBar(props) {
                     </div>)
                 }
             </div>
-            <div className='arrow'>
+            <div className='sidebar-arrow'>
                 <img src={arrow} alt="arrow" />
             </div>
 
